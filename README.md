@@ -96,7 +96,16 @@ private void FrmMain_Load(object sender, EventArgs e)
 ![결과10](/WinformApp/Media/RastaurentApp.png "레스토랑 앱")   
 
 ### Travel Test App   
-![결과11](/WinformApp/Media/TravelWishApp.png "여행 장소 앱")
+![결과11](/WinformApp/Media/TravelWishApp.png "여행 장소 앱")   
+
+### ListView Test App
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ListViewApp1.jpg" width="600px" height="250px" title="연습앱" alt="연습앱"/>   
+
+### StudyHistory Test App
+![결과12](/WinformApp/Media/StudyHistoryApp.png "영국 군주 리스트 앱")   
+
+### Clock Test App   
+![결과12](/WinformApp/Media/ClockApp.png "영국 군주 리스트 앱")
 
 
 
