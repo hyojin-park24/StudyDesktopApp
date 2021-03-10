@@ -1,7 +1,16 @@
 # StudyDesktopApp
 C# 데스크톱 앱 개발 학습 리포지토리   
 
-# 2021.03.09 Day1
+---
+
+# 2021.03.09 Day1   
+#### 폼 생선 전 기본 형태   
+```
+form1.cs -> frmMain.cs   
+startposition 잡아주기   
+icon 생성 
+전체 폼 틀을 잡아주기   
+```
 
 ### Practice App Template
 <img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/PraticeApp.png" width="300px" height="250px" title="연습앱" alt="연습앱"/>   
