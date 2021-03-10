@@ -105,7 +105,9 @@ private void FrmMain_Load(object sender, EventArgs e)
 ![결과12](/WinformApp/Media/StudyHistoryApp1.png "영국 군주 리스트 앱")   
 
 ### Clock Test App   
-![결과12](/WinformApp/Media/ClockApp.png "영국 군주 리스트 앱")
+![결과12](/WinformApp/Media/ClockApp.png "영국 군주 리스트 앱")   
 
+### DateCalc Test App
+![결과13](/WinformApp/Media/DateCalcApp2.png "날짜 계산기 ")   
 
 
