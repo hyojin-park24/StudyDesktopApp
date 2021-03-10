@@ -16,25 +16,25 @@ icon 생성
 <img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/PraticeApp.png" width="600px" height="250px" title="연습앱" alt="연습앱"/>   
 
 ### Label Test App   
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/LabelTestApp.png" width="600px" height="250px" title="라벨 앱" alt="라벨 앱"/>   
+![결과2](/WinformApp/Media/LabelTestApp.png "라벨 텍스트 앱")   
 
 ### CheckBox Test App   
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/CheckBoxWinApp.png" width="600px" height="250px" title="체크박스 앱" alt="체크박스 앱"/>   
+![결과3](WinformApp/Media/CheckBoxWinApp.png "체크박스 앱")   
 
 ### Masked Test App
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/MaskedTestApp.png" width="600px" height="250px" title="사원정보 앱" alt="사원정보 앱"/>   
+![결과4](/WinformApp/Media/MaskedTestApp.png "사원 정보 앱")
 
 ### Radio Test App
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/RadioWinApp.png" width="600px" height="250px" title="라디오 버튼 앱" alt="라디오 버튼 앱"/>   
+![결과5](/WinformApp/Media/RadioWinApp.png "라디오 버튼 앱")   
 
 ### Flag Test App
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/FlagWinApp.png" width="600px" height="250px" title="플래그 앱" alt="플래그 앱"/>   
+![결과6](/WinformApp/Media/FlagTestApp.png "플래그 앱")  
 
 ### Login Test App
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/LoginApp.png" width="600px" height="250px" title="로그인 앱" alt="로그인 앱"/>   
+![결과7](/WinformApp/Media/LoginTestApp.png "로그인 앱")  
 
 ### ColorChange Test App
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ColorChangerApp.png" width="600px" height="250px" title="색 변화 앱" alt="색 변화 앱"/>   
+![결과8](/WinformApp/Media/ColorChangerApp.png "색  앱")   
 
 ---   
 
@@ -70,7 +70,7 @@ private void FrmMain_Load(object sender, EventArgs e)
             
  ```
       
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ListBoxWinApp3.png" width="600px" height="250px" title="리스트 박스 앱" alt="리스트  앱"/>   
+![결과9](/WinformApp/Media/ListBoxWinApp3.png "리스트  앱")   
 
 ### 잠깐의 이론! 
 ```
@@ -91,7 +91,12 @@ private void FrmMain_Load(object sender, EventArgs e)
 			- 참조 타입 : as     
 ```  
 
-![결과1](/WinformApp/Media/RastaurentApp.png "레스토랑 앱")
+### Rastaurent Test App   
+
+![결과10](/WinformApp/Media/RastaurentApp.png "레스토랑 앱")   
+
+### Travel Test App   
+![결과11](/WinformApp/Media/TravelWishApp.png "여행 장소 앱")
 
 
 
