@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewApp", "ListViewApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyHistoryApp", "StudyHistoryApp\StudyHistoryApp.csproj", "{C13B1098-BEAC-4A38-A8BC-913F35FDEFE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalClockApp", "DigitalClockApp\DigitalClockApp.csproj", "{B20AD2FA-DAED-449E-9B9F-2EB4CEA0606F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateCalcApp", "DateCalcApp\DateCalcApp.csproj", "{0E55B480-08EE-4FAD-8A5C-7DFCC854DE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmClockApp", "AlarmClockApp\AlarmClockApp.csproj", "{CC603B20-8403-4C22-B4C2-37E1566D8131}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{C13B1098-BEAC-4A38-A8BC-913F35FDEFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C13B1098-BEAC-4A38-A8BC-913F35FDEFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C13B1098-BEAC-4A38-A8BC-913F35FDEFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20AD2FA-DAED-449E-9B9F-2EB4CEA0606F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20AD2FA-DAED-449E-9B9F-2EB4CEA0606F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20AD2FA-DAED-449E-9B9F-2EB4CEA0606F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20AD2FA-DAED-449E-9B9F-2EB4CEA0606F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E55B480-08EE-4FAD-8A5C-7DFCC854DE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E55B480-08EE-4FAD-8A5C-7DFCC854DE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E55B480-08EE-4FAD-8A5C-7DFCC854DE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E55B480-08EE-4FAD-8A5C-7DFCC854DE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC603B20-8403-4C22-B4C2-37E1566D8131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC603B20-8403-4C22-B4C2-37E1566D8131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC603B20-8403-4C22-B4C2-37E1566D8131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC603B20-8403-4C22-B4C2-37E1566D8131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
