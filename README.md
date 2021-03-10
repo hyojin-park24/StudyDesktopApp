@@ -91,7 +91,7 @@ private void FrmMain_Load(object sender, EventArgs e)
 			- 참조 타입 : as     
 ```  
 
-
+![결과1](/WinformApp/Media/RastaurentApp.png "레스토랑 앱")
 
 
 
