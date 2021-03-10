@@ -70,7 +70,26 @@ private void FrmMain_Load(object sender, EventArgs e)
             
  ```
       
-<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ListBoxWinApp3.png" width="600px" height="250px" title="리스트 박스 앱" alt="리스트  앱"/>
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ListBoxWinApp3.png" width="600px" height="250px" title="리스트 박스 앱" alt="리스트  앱"/>   
+
+##### 잠깐의 이론! 
+```
+**Tostring : Object값이다
+**Sender : Object값이다
+			이벤트는,
+			Object의 Class 로 박싱해준다 즉, 초기화 원래상태로 돌려준다. 
+			모든 컨트롤이 이벤트에 있다.
+			하나로 통일해서 델리게이트 (대리자) 해야한다.
+			Ex) private void LsbHappyCountry_SelectedIndexChanged(object sender, EventArgs e)
+			이벤트에 대한 이름을 쓰고, 
+			앞에는 이벤트보내준 객체를 설명, 뒤에는 이벤트 속성을 설명(아규먼트)
+			델리게이트를 선언 후에 객체가 다양하기 때문에 합친 값이 Object값이다.
+			그 다음 object로 박싱한 다음 사용하기 위해서 unboxing을 해야한다. 
+			∴ 값을 돌려주는 초기화를 시켜준다 
+			1. 형변환 
+			- 값 타입 : ()
+			- 참조 타입 : as     
+```  
 
 
 
