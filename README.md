@@ -72,7 +72,7 @@ private void FrmMain_Load(object sender, EventArgs e)
       
 <img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/ListBoxWinApp3.png" width="600px" height="250px" title="리스트 박스 앱" alt="리스트  앱"/>   
 
-##### 잠깐의 이론! 
+### 잠깐의 이론! 
 ```
 **Tostring : Object값이다
 **Sender : Object값이다
