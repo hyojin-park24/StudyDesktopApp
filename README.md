@@ -108,6 +108,43 @@ private void FrmMain_Load(object sender, EventArgs e)
 ![결과12](/WinformApp/Media/ClockApp.png "영국 군주 리스트 앱")   
 
 ### DateCalc Test App
-![결과13](/WinformApp/Media/DateCalcApp2.png "날짜 계산기 ")   
+![결과13](/WinformApp/Media/DateCalcApp2.png "날짜 계산기 앱")    
+
+---   
+# 2021.03.11 Day3   
+#### 오늘의 핵심 Point! WPF!   
+### 잠깐의 이론!   
+```
+WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는 또 다른 방법!   
+가장 큰 장점은,   
+디자인과 프로그램 로직이 분리되어 있다는 점!   
+편리한 동적 레이아웃을 제공!   
+창의 크기 변화에 따라 컨트롤들의 크기 및 위치를 바꿀 수 있음!   
+강력한 데이터바인딩을 제공한다는 점!   
+새로운 버튼 컨트롤을 만들어서 사용할 수 있음!   
+
+개인적으로 윈폼 보다 코딩차이는 없었으나 타입작업이 훨씬 수월했다는 점이 좋았다.   
+```
+
+### AlarmClock Test App   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/AlarmClockApp.jpg" width="600px" height="250px" title="소리나는 알람시계 앱" alt="소리나는 알람시계 앱"/>  
+
+### MediaPlayer Test App   
+![결과15](/WinformApp/Media/MediaPlayerApp.png "동영상 플레이어 앱 ")   
+
+### OpenfileDialog Test App   
+![결과16](/WinformApp/Media/OpenfileDialog.png "파일 오픈 앱 ")    
+
+### GraphicEditor Test App   
+![결과17](/WinformApp/Media/GraphicEditor.png "그래픽 에디터 앱 ")   
+
+### WPF_BMICalc Test App
+![결과18](/WinformApp/Media/WPF_BMICalc.png "BMI 계산기 앱 ")   
+
+### WPF_Blinker Test App   
+![결과18](/WinformApp/Media/WPF_BlinkerApp.png "색이 0.1초마다  앱 ")
+
+
+
 
 
