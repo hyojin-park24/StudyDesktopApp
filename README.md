@@ -155,13 +155,13 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
 ![결과20](/WinformApp/Media/WinformCalculatorApp.png "계산기  앱 ")    
 
 ### WPF_AnalogClock Test App   
-![결과21](/WinformApp/Media/WPF_Analog Clock App.png "계산기  앱 ")    
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/WPF_Analog%20Clock%20App.png"/>  
 
 ### WPF_몬테카를로 시물레이션 원주율 찾기   
-![결과22](/WinformApp/Media/WPF_몬테카를로 시물레이션 원주율 찾기.png "원주율 앱 ")   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/WPF_%EB%AA%AC%ED%85%8C%EC%B9%B4%EB%A5%BC%EB%A1%9C%20%EC%8B%9C%EB%AC%BC%EB%A0%88%EC%9D%B4%EC%85%98%20%EC%9B%90%EC%A3%BC%EC%9C%A8%20%EC%B0%BE%EA%B8%B0.png"/> 
 
 ### WPF_MYNOTEPAD Test App   
-![결과22](/WinformApp/Media/MyNotePad App.png "메모장 앱 ")   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/MyNotePad%20App.png"/>  
 
 ```
 노트패드 기능   
