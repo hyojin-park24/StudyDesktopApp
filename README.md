@@ -142,7 +142,37 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
 ![결과18](/WinformApp/Media/WPF_BMICalc.png "BMI 계산기 앱 ")   
 
 ### WPF_Blinker Test App   
-![결과18](/WinformApp/Media/WPF_BlinkerApp.png "색이 0.1초마다  앱 ")
+![결과18](/WinformApp/Media/WPF_BlinkerApp.png "색이 0.1초마다  앱 ")   
+
+# 2021.03.12 Day3   
+#### C# 응용 프로그램 작성   
+
+### WDF VS WinForm Calculator Test App   
+
+## WDF      
+![결과19](/WinformApp/Media/WpfCalculatorApp.png "계산기  앱 ")    
+## WinForm   
+![결과20](/WinformApp/Media/WinformCalculatorApp.png "계산기  앱 ")    
+
+### WPF_AnalogClock Test App   
+![결과21](/WinformApp/Media/WPF_Analog Clock App.png "시계  앱 ")    
+
+### WPF_몬테카를로 시물레이션 원주율 찾기   
+![결과22](/WinformApp/Media/WPF_몬테카를로 시물레이션 원주율 찾기.png "원주율 앱 ")   
+
+### WPF_MYNOTEPAD Test App   
+![결과22](/WinformApp/Media/MyNotePad App.png.png "메모장 앱 ")   
+```
+노트패드 기능   
+1. 파일   
+2. 편집 
+3. 도움말   
+ * 새로만들기 / 열기 / 저장 / 종료 
+ * 복사하기 / 붙여넣기
+ * 프로그램 정보  
+전부 실행할 수 있도록 코딩   
+```
+
 
 
 
