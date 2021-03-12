@@ -155,13 +155,13 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
 ![결과20](/WinformApp/Media/WinformCalculatorApp.png "계산기  앱 ")    
 
 ### WPF_AnalogClock Test App   
-![결과21](/WinformApp/Media/WPF_Analog Clock App.png "시계  앱 ")    
+![결과21](/WinformApp/Media/WPF_Analog Clock App.png"시계  앱 ")    
 
 ### WPF_몬테카를로 시물레이션 원주율 찾기   
 ![결과22](/WinformApp/Media/WPF_몬테카를로 시물레이션 원주율 찾기.png "원주율 앱 ")   
 
 ### WPF_MYNOTEPAD Test App   
-![결과22](/WinformApp/Media/MyNotePad App.png.png "메모장 앱 ")   
+![결과22](/WinformApp/Media/MyNotePad App.png "메모장 앱 ")   
 
 ```
 노트패드 기능   
