@@ -145,13 +145,13 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
 ![결과18](/WinformApp/Media/WPF_BlinkerApp.png "색이 0.1초마다  앱 ")   
 
 # 2021.03.12 Day3   
-#### C# 응용 프로그램 작성   
+## C# 응용 프로그램 작성   
 
 ### WDF VS WinForm Calculator Test App   
 
-## WDF      
+#### WDF      
 ![결과19](/WinformApp/Media/WpfCalculatorApp.png "계산기  앱 ")    
-## WinForm   
+#### WinForm   
 ![결과20](/WinformApp/Media/WinformCalculatorApp.png "계산기  앱 ")    
 
 ### WPF_AnalogClock Test App   
