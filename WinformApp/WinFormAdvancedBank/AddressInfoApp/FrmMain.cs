@@ -22,13 +22,13 @@ namespace AddressInfoApp
 
         private void BtlClear_Click(object sender, EventArgs e)
         {
-
+            ClearInput();
         }
 
         private void BtlDelete_Click(object sender, EventArgs e)
         {
             int.TryParse(TxtIdx.Text, out int result);
-            if(result == 0)
+            if (result == 0)
             {
                 MessageBox.Show("데이터를 선택하십시오.");
                 return;
@@ -42,7 +42,7 @@ namespace AddressInfoApp
                 string query = $"DELETE FROM Address WHERE idx = {result}";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
-                if (cmd.ExecuteNonQuery() ==1)
+                if (cmd.ExecuteNonQuery() == 1)
                 {
                     MessageBox.Show("삭제 성공:)");
                 }
@@ -51,10 +51,25 @@ namespace AddressInfoApp
                     MessageBox.Show("삭제 실패 :(");
                 }
             }
+            ClearInput();
+            RefreshData();
         }
-       
+
         private void BtlAdd_Click(object sender, EventArgs e)
         {
+            int.TryParse(TxtIdx.Text, out int result);
+            if (result > 0 )
+            {
+                MessageBox.Show("초기화를 하십시오.");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(TxtFullName.Text) || string.IsNullOrEmpty(TxtMobile.Text))
+            {
+                MessageBox.Show("값을 입력하세요.");
+                return;
+            }
+
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 if (conn.State == ConnectionState.Closed)
@@ -67,7 +82,7 @@ namespace AddressInfoApp
                     $"  RegDate ) " +
                     $"  VALUES " +
                     $"  (   '{TxtFullName.Text}'," +
-                    $"     '{TxtMobile.Text.Replace("-","")}'," +
+                    $"     '{TxtMobile.Text.Replace("-", "")}'," +
                     $"     '{TxtAddress.Text}'," +
                     $" 'admin', " +
                     $"  GETDATE() ); ";
@@ -82,6 +97,7 @@ namespace AddressInfoApp
                     MessageBox.Show("입력 실패!");
                 }
             }
+            ClearInput();
             RefreshData();
         }
         private void BtlUpdate_Click(object sender, EventArgs e)
@@ -93,9 +109,37 @@ namespace AddressInfoApp
                 return;
             }
 
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                if (conn.State == ConnectionState.Closed)
+                    conn.Open();
+
+                string query = $"UPDATE Address " +
+                            $" SET " +
+                            $" FullName = '{TxtFullName.Text}'," +
+                            $" Mobile = '{TxtMobile.Text.Replace("-", "")}'," +
+                            $" Addr = '{TxtAddress.Text}'," +
+                            $" ModId = 'admin'," +
+                            $" ModDate = GETDATE()" +
+                            $" WHERE Idx = {result} ";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                if (cmd.ExecuteNonQuery() == 1)
+                {
+                    MessageBox.Show("수정 성공!");
+                }
+                else
+                {
+                    MessageBox.Show("수정 실패!");
+                }
+            }
+
+            ClearInput();
+            RefreshData();
+
         }
 
-       
+
 
         private void BtlClear_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -110,7 +154,7 @@ namespace AddressInfoApp
             }
         }
 
-       
+
         private void TxtFullName_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 13)
@@ -125,13 +169,13 @@ namespace AddressInfoApp
         }
         private void RefreshData()
         {
-            using (SqlConnection conn = new SqlConnection (connString))
+            using (SqlConnection conn = new SqlConnection(connString))
             {
                 if (conn.State == ConnectionState.Closed)
                     conn.Open();
 
                 //ssms 테이블 스크립팅 메뉴활용
-                string query = 
+                string query =
                     "   SELECT " +
                     "   Idx , " +
                     "   FullName  , " +
@@ -144,7 +188,7 @@ namespace AddressInfoApp
                 adapter.Fill(ds);
 
                 DgvAddress.DataSource = ds.Tables[0];
-                
+
             }
         }
 
