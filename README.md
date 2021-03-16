@@ -144,7 +144,9 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
 ### WPF_Blinker Test App   
 ![결과18](/WinformApp/Media/WPF_BlinkerApp.png "색이 0.1초마다  앱 ")   
 
-# 2021.03.12 Day3   
+---
+
+# 2021.03.12 Day4   
 ## C# 응용 프로그램 작성   
 
 ### WDF VS WinForm Calculator Test App   
@@ -172,8 +174,58 @@ WDF(Windows Presentation Foundation) : 윈도우 애플리케이션을 만드는
  * 복사하기 / 붙여넣기
  * 프로그램 정보  
 전부 실행할 수 있도록 코딩   
-```
+```   
 
+---   
+
+# 2021.03.15 Day5   
+```
+Chart App / ImageViewer App / Login App   
+```   
+
+### Chart Test App   
+
+![결과24](/WinformApp/Media/Chart1.png "차트  앱 ")    
+
+![결과25](/WinformApp/Media/Chart2.png "차트  앱2 ")    
+
+![결과26](/WinformApp/Media/Chart3.png "차트  앱3 ")   
+
+### ImageViewer Test App    
+
+![결과27](/WinformApp/Media/ImageViewer.png "이미지 뷰어  앱 ")   
+
+### WPFLogin Test App   
+
+![결과28](/WinformApp/Media/WPFLoginApp.png "WPF 로그인 앱 ")   
+
+---
+
+# 2021.03.16 Day6   
+```
+Window Address Information App / IoT Photo Resistor App   
+```   
+
+### Window Address Information Test App   
+
+#### SSMS Database 연동   
+
+
+![결과29](/WinformApp/Media/WinAddressInfoApp.png "주소 정보 앱 ")    
+
+![결과30](/WinformApp/Media/WinAddressInfoApp2.png "주소 정보 앱2 ")    
+
+![결과31](/WinformApp/Media/WinAddressInfoApp3.png "주소 정보 앱3 ")    
+
+### IoT Photo Resistor Test App   
+
+#### SSMS Database 연동   
+
+![결과32](/WinformApp/Media/IoT ViewAll.png "아이오티 뷰 올 앱 ")   
+
+![결과33](/WinformApp/Media/IoT Zoom.png "아이오티 줌 앱 ")   
+
+![결과34](/WinformApp/Media/IoT Database.png "데이터 베이스  앱 ")   
 
 
 
