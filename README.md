@@ -221,11 +221,11 @@ Window Address Information App / IoT Photo Resistor App
 
 #### SSMS Database 연동   
 
-![결과32](/WinformApp/Media/IoT ViewAll.png "아이오티 뷰 올 앱 ")   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/IoT%20ViewAll.png"/>   
 
-![결과33](/WinformApp/Media/IoT Zoom.png "아이오티 줌 앱 ")   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/IoT%20Zoom.png"/>   
 
-![결과34](/WinformApp/Media/IoT Database.png "데이터 베이스  앱 ")   
+<img src="https://github.com/hyojin-park24/StudyDesktopApp/blob/main/WinformApp/Media/IoT%20Database.png"/>     
 
 
 
