@@ -271,7 +271,7 @@ namespace BookRentalShopApp
                     cmd.Parameters.Add(pPrice);
 
                     var pDescriptions = new SqlParameter("@Descriptions", SqlDbType.NVarChar);
-                    pDescriptions.Value = TxtDescriptions.Text;
+                    pDescriptions.Value = Helper.Common.ReplaceCmdText(TxtDescriptions.Text);
                     cmd.Parameters.Add(pDescriptions);
 
                     if (IsNew == false) // Idx 파라미터 Update일 때만 처리해줌 

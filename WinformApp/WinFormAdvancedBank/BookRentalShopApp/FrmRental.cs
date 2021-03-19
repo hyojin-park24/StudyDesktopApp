@@ -235,8 +235,10 @@ namespace BookRentalShopApp
                     else // UPDATE
                     {
                         query = @" UPDATE [dbo].[rentaltbl]
-                                   SET [returnDate] = GETDATE()
-                                      ,[rentalState] = 'T'
+                                   SET [returnDate] = case @rentalState
+                                                       when 'T' then GETDATE()
+                                                       when 'R' then null end
+                                      ,[rentalState] = @rentalState
                                  WHERE Idx = @idx ";
                      }                              
 
@@ -261,9 +263,11 @@ namespace BookRentalShopApp
                         cmd.Parameters.Add(prentalState);
                     }
                     else // 업데이트일땐 
-
-                    if (IsNew == false) // Idx 파라미터 Update일 때만 처리해줌 
                     {
+                        var prentalState = new SqlParameter("@rentalState", SqlDbType.Char, 1);
+                        prentalState.Value = CboRentalState.SelectedValue;
+                        cmd.Parameters.Add(prentalState);
+
                         var pIdx = new SqlParameter("@Idx", SqlDbType.Int);
                         pIdx.Value = TxtIdx.Text;
                         cmd.Parameters.Add(pIdx);
