@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace WpfPracticeApp
+namespace WpfPracticeApp.BusinessLogicz
 {
     public class Talk : ObservableCollection<Message>
     {

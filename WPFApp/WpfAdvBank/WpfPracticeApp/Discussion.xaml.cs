@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfPracticeApp.BusinessLogicz;
 
 namespace WpfPracticeApp
 {
@@ -23,6 +24,12 @@ namespace WpfPracticeApp
         public Discussion()
         {
             InitializeComponent();
+        }
+
+        private void Page_Initialized(object sender, EventArgs e)
+        {
+            Talk talk = new Talk();
+            this.DataContext = talk;
         }
     }
 }

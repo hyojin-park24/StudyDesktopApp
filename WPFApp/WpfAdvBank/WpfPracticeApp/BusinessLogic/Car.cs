@@ -7,10 +7,33 @@ using System.Windows.Media;
 
 namespace WpfPracticeApp.BusinessLogic
 {
-    class Car
+    class Car : Notifier
     {
-        public double Speed { get; set; }
-        public Color MainColor { get; set; }
+        // public double Speed {get; set;} 아래와 똑같다
+        private double speed;
+        public double Speed {
+            get { return speed; } 
+            set {
+                if (value > 350)
+                {
+                    speed = 350;
+                }
+                else
+                { speed = value; }
+                OnPropertyChanged("Speed"); //속성값 변경된 것을 프로그램에 알려줌
+            } 
+        }
+
+        private Color mainColor;
+        public Color MainColor {
+            get { return mainColor; }
+            set
+            {
+                mainColor = value;
+                OnPropertyChanged("MainColor");
+            }
+        }
+        public Human Driver  { get; set; }
     }
 
     public class Human
